@@ -16,6 +16,10 @@ header {
 }
 #logo {
     width: 25%;
+    float: left;
+}
+.highlight {
+    color: greenyellow;
 }
 nav {
     width: 50%;
@@ -27,16 +31,26 @@ ul {
     list-style: none;
     max-width: 45%;
     display: flex;
+    padding: 25px 0;
+    margin: auto;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+a:hover {
+    color: greenyellow;
 }
 
 .box {
-    background-color: darkblue;z
+    background-color: #010548;
     color: #fff;
     text-align: center;
     box-sizing: border-box;
     padding: 150px 0;
     margin: 0;
-    height: 350px;
+    max-height: 450px;
+
 }
 
 .box h2 {
@@ -54,3 +68,8 @@ footer {
     text-align: center;
     border-top: 6px solid green;
     height: 55px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
